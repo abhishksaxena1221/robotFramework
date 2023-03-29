@@ -15,7 +15,7 @@ HomePage Loading Validation
 
 *** Keywords ***
 the browser instance is launched
-    Open Browser        about:blank
+    Open Browser        about:blank     chrome
 
 user navigates to the application url
      Log    Navigation success
