@@ -19,6 +19,7 @@ the browser instance is launched
 
 user navigates to the application url
      Log    Navigation success
+     Log To Console    "Hello"
 
 homepage must be launched successfully
 
