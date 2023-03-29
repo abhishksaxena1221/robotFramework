@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20230329 22:41:24.548" rpa="false" schemaversion="3">
+<suite id="s1" name="HomePageTest" source="C:\Users\abhisheksaxena05\PycharmProjects\robotFramework\Tests\HomePageTest.robot">
+<test id="s1-t1" name="HomePage Loading Validation" line="11">
+<kw name="Given the browser instance is launched">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230329 22:41:24.822" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20230329 22:41:24.822" endtime="20230329 22:41:26.119"/>
+</kw>
+<status status="PASS" starttime="20230329 22:41:24.822" endtime="20230329 22:41:26.119"/>
+</kw>
+<kw name="When user navigates to the application url">
+<kw name="Log" library="BuiltIn">
+<arg>Navigation success</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230329 22:41:26.120" level="INFO">Navigation success</msg>
+<status status="PASS" starttime="20230329 22:41:26.120" endtime="20230329 22:41:26.120"/>
+</kw>
+<status status="PASS" starttime="20230329 22:41:26.120" endtime="20230329 22:41:26.120"/>
+</kw>
+<kw name="Then homepage must be launched successfully">
+<msg timestamp="20230329 22:41:26.120" level="FAIL">User keyword 'Then homepage must be launched successfully' contains no keywords.</msg>
+<status status="FAIL" starttime="20230329 22:41:26.120" endtime="20230329 22:41:26.120"/>
+</kw>
+<status status="FAIL" starttime="20230329 22:41:24.821" endtime="20230329 22:41:26.121">User keyword 'Then homepage must be launched successfully' contains no keywords.</status>
+</test>
+<doc>Test Cases Suite for Homepage of Exra Application</doc>
+<status status="FAIL" starttime="20230329 22:41:24.550" endtime="20230329 22:41:26.122"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="HomePageTest">HomePageTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
