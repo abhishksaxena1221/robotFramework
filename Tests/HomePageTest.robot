@@ -1,6 +1,5 @@
 *** Settings ***
 Documentation       Test Cases Suite for Homepage of Exra Application
-Library             SeleniumLibrary
 Test Setup          Begin Web Test
 Test Teardown       End Web Test
 Resource            ../Resources/Common.robot
